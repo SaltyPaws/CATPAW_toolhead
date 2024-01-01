@@ -14,8 +14,8 @@ The toolhead will work with the stock Voron Zero 0.2 Carriage, but the screw sec
 <img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20240101_224037977.jpg?raw=true" height="800" width="600" >
 
 # Installation Instructions
+Assembly should be done in the follwing order:
 **Probe**
-Start with assembling the probe magnets. For best result I like to:
 - Solder wires to 6x3mm magnets. In order to prevent loss of magnetism, let the magnets cool against another 6x3 magnet.
 - Press the magnets into the slots by pushing the toolhead down on a hard object.
 - Use a large flat soldering tip at around 230C to push the magnets deeper into the slots, you want the magnets to stick out ~0.5 to 1 mm. Again, let the magnets cool down attached to oher magnets to prevent loss of magnetism.
@@ -26,5 +26,17 @@ Start with assembling the probe magnets. For best result I like to:
 **NeoPixels**
 - Create a chain of 2 neopixels. You do not have a lot of space to hide excess cable, so make the wires between the neopixels as short as possible, while still allowing them to slide into the slots.
 - Test the neopixels! It will be more rework to remove the hotend fan and part cooling fans later.
+
+**Fans**
+- First install 3010 part cooling fan. Be very carefull to only press the edges of the fan, the fan will break when pushing the centre of the fan (ask me how I know...)
+- Then proceed with intalling the blower fans.
+- Use a knife to cut the upper right hand side of the blower fan. This is required for routing the majority of the wires, see pictures below:
+
+<img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175242278.jpg?raw=true" height="800" width="600" >
+
+<img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175256608.jpg?raw=true" height="800" width="600" >
+
+<img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175325632.jpg?raw=true" height="800" width="600" >
+  
 
 - 
