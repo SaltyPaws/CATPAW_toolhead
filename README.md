@@ -13,6 +13,15 @@ The toolhead will work with the stock Voron Zero 0.2 Carriage, but the screw sec
 
 <img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20240101_224037977.jpg?raw=true" height="800" width="600" >
 
+**BOM**
+1. 2x NeoPixel
+2. 1x 3010 hotend fan
+3. 2x 4010 Blower
+4. 6x3mm magnets for probe (optional)
+5. 6mm steel ball for filament sensor (optional)
+6. Omron D2F-L microswitch with lever for filament sensor (optional)
+7. 2x M2x12 or selftapping screw to secure microswitch (optional)
+
 # Installation Instructions
 Assembly should be done in the follwing order:
 **Probe**
@@ -30,13 +39,24 @@ Assembly should be done in the follwing order:
 **Fans**
 - First install 3010 part cooling fan. Be very carefull to only press the edges of the fan, the fan will break when pushing the centre of the fan (ask me how I know...)
 - Then proceed with intalling the blower fans.
-- Use a knife to cut the upper right hand side of the blower fan. This is required for routing the majority of the wires, see pictures below:
+- Use a knife to cut the upper right hand side of the blower fan (looking back to front). This is required for routing the majority of the wires, see pictures below:
 
-<img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175242278.jpg?raw=true" height="800" width="600" >
+<img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175242278.jpg?raw=true" height="600" width="800" >
 
 <img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175256608.jpg?raw=true" height="800" width="600" >
 
 <img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175325632.jpg?raw=true" height="800" width="600" >
   
+**Toolhead Cardridge**
+- Ensure the heater wires are installed pointing towards the right hand fan that has space for wire routing.
+- Thermistor, probe and fan wires will fit on the other side (left hand side fan).
+- Hold off on installing the zip-ties, these are best installed after the toolhead is installed on the carriage.
 
-- 
+**Filament Sensor**  
+- Solder wires to filament sensor (2 othermost legs). You may want to shorten the legs somewhat for an easier fit.
+- Trim lever, so that lever does not extend past microswitch body
+- Install microswtich and ball
+- Test sensor
+
+**Install Toolhead**
+- Carefully mount toolhead, ensuring that wires are not pinched, and belt is not rubbing on gantry. The bulk of the wires will go in the gap carved out on the right hand side fan, the other side will have sufficient space for probe and fan wires.
