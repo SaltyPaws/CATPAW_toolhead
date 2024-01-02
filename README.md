@@ -14,13 +14,15 @@ The toolhead will work with the stock Voron Zero 0.2 Carriage, but the screw sec
 <img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20240101_224037977.jpg?raw=true" height="800" width="600" >
 
 **BOM**
-1. 2x NeoPixel
-2. 1x 3010 hotend fan
-3. 2x 4010 Blower
-4. 6x3mm magnets for probe (optional)
-5. 6mm steel ball for filament sensor (optional)
-6. Omron D2F-L microswitch with lever for filament sensor (optional)
-7. 2x M2x12 or selftapping screw to secure microswitch (optional)
+1. 2x SHCS (preferred) or BHSC M3x25 bolt
+2. 3x M3 nut
+3. 2x NeoPixel
+4. 1x 3010 hotend fan
+5. 2x 4010 Blower
+6. 6x3mm magnets for probe (optional)
+7. 6mm steel ball for filament sensor (optional)
+8. Omron D2F-L microswitch with lever for filament sensor (optional)
+9. 2x M2x12 or selftapping screw to secure microswitch (optional)
 
 # Installation Instructions
 Assembly should be done in the follwing order:
@@ -39,7 +41,7 @@ Assembly should be done in the follwing order:
 **Fans**
 - First install 3010 part cooling fan. Be very carefull to only press the edges of the fan, the fan will break when pushing the centre of the fan (ask me how I know...)
 - Then proceed with intalling the blower fans.
-- Use a knife to cut the upper right hand side of the blower fan (looking back to front). This is required for routing the majority of the wires, see pictures below:
+- Use a knife to cut the upper right hand side of the blower fan (looking back to front). This is required for routing the majority of the wires. I used superglue to keep the fan togather as you will remove a fan closing latch. I accidentilly cut int the fanbox, and sealed up the hole with red gasket maker. For details - see pictures below:
 
 <img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20231225_175242278.jpg?raw=true" height="600" width="800" >
 
