@@ -8,8 +8,8 @@ CATPAW:
 - Allmost no loss in print volume. X axis should be full width, loss off a milimeter or so on X if you print with your door closed. (Magnets on my door are strong enough, so the door closes again if the toolhead bumps into it, giving me the full 120x120 mm even when printing ABS
 - Option to add the slideswipe Probe. I shorteded the probe, but all other parts can be used from https://github.com/SaltyPaws/Voron_0.1and0.2mods/SlideSwipe or orignal repo (https://github.com/chestwood96/SlideSwipe)
 - Option to add under extruder filament Sensor
-- Carriages provided for MGN7 and MGN9 X-axis rails. It is reccomended to also print the provided X carriage for the appropriate rail. In order to minimize toolhead height, I lowered the screwhole for the rear mounting screw.
-The toolhead will work with the stock Voron Zero 0.2 Carriage, but the screw securing the X-carriage from the rear will not fit.
+- Carriages are provided for MGN7 and MGN9 X-axis rails. It is reccomended to print the provided X carriage for the appropriate rail. In order to minimize toolhead height, I lowered the screwhole for the rear mounting screw.
+The CATPAW toolhead will work with the stock Voron Zero 0.2 Carriage, but the screw securing the X-carriage from the rear will not fit.
 
 <img src="https://github.com/SaltyPaws/CATPAW_toolhead/blob/main/images/PXL_20240101_224037977.jpg?raw=true" height="800" width="600" >
 
