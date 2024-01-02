@@ -1,12 +1,12 @@
 # CATPAW_toolhead
 
-CatPaw is the ideal toolhead for Voron Zero series with Orbiter 2.0 Extruder. I developed this toolhead as I was unhappy with the existing options. The standard Voron Zero 0.2 toolhead does not provide as much cooling as I prefer, and certinly less than the StealthBurner toolhead. My design goals were also minimum loss of print volume and maximum compatibillity with toolheads and options for probe and filament sensor.
+CatPaw is the ideal toolhead for Voron Zero series with Orbiter 2.0 Extruder. I developed this toolhead as I was unhappy with the existing options. The standard Voron Zero 0.2 toolhead does not provide as much cooling as I prefer, and certainly less than the StealthBurner toolhead. My design goals were also minimum loss of print volume and maximum compatibility with toolheads and options for probe and filament sensor.
 
 CATPAW:
 - Uses Voron Zero 0.2 toolhead cartridges, so should work with all toolheads for voron Zero 0.2 (fan saver recommended)
 - 2x 4010 Blowers, with StealthBurner duct layout for near arctic level part cooling (2x 4010 provides more air than StealthBurner toolhead)
-- Almost no loss in print volume. X axis should be full width, loss off a milimeter or so on X if you print with your door closed. (Magnets on my door are strong enough, so the door closes again if the toolhead bumps into it, giving me the full 120x120 mm even when printing ABS
-- Option to add the slideswipe Probe. I shorteded the probe, but all other parts can be used from https://github.com/SaltyPaws/Voron_0.1and0.2mods/SlideSwipe or original repo (https://github.com/chestwood96/SlideSwipe)
+- Almost no loss in print volume. X axis should be full width, loss off a millimeter or so on X if you print with your door closed. (Magnets on my door are strong enough, so the door closes again if the toolhead bumps into it, giving me the full 120x120 mm even when printing ABS
+- Option to add the slideswipe Probe. I shortened the probe, but all other parts can be used from https://github.com/SaltyPaws/Voron_0.1and0.2mods/SlideSwipe or original repo (https://github.com/chestwood96/SlideSwipe)
 - Option to add under extruder filament Sensor
 - Carriages are provided for MGN7 and MGN9 X-axis rails. It is recommended to print the provided X carriage for the appropriate rail. In order to minimize toolhead height, I lowered the screw hole for the rear mounting screw.
 The CATPAW toolhead will work with the stock Voron Zero 0.2 Carriage, but the screw securing the X-carriage from the rear will not fit.
@@ -25,7 +25,7 @@ The CATPAW toolhead will work with the stock Voron Zero 0.2 Carriage, but the sc
 9. 2x M2x12 or self-tapping screw to secure micro-switch (optional)
 
 # Installation Instructions
-Assembly should be done in the follwing order:
+Assembly should be done in the following order:
 **Probe**
 - Solder wires to 6x3mm magnets. In order to prevent loss of magnetism, let the magnets cool against another 6x3 magnet.
 - Press the magnets into the slots by pushing the toolhead down on a hard object.
@@ -62,6 +62,6 @@ Assembly should be done in the follwing order:
 
 **Install Toolhead**
 - Carefully mount toolhead, ensuring that wires are not pinched, and belt is not rubbing on gantry. The bulk of the wires will go in the gap carved out on the right hand side fan, the other side will have sufficient space for probe and fan wires.
-  
-**Mini Probe**
+- 
+**Min Probe**
 - See installation instructions in orignal repo: https://github.com/chestwood96/SlideSwipe
