@@ -60,3 +60,6 @@ Assembly should be done in the follwing order:
 
 **Install Toolhead**
 - Carefully mount toolhead, ensuring that wires are not pinched, and belt is not rubbing on gantry. The bulk of the wires will go in the gap carved out on the right hand side fan, the other side will have sufficient space for probe and fan wires.
+- 
+**Min Probe**
+- See installation instructions in orignal repo: https://github.com/chestwood96/SlideSwipe
